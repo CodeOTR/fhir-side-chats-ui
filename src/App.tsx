@@ -1,6 +1,6 @@
-import React from 'react';
-import RasaChat from './Chat/Rasa';
-import GeminiChat from './Chat/Gemini';
+import React from "react";
+import RasaChat from "./Chat/Rasa";
+import GeminiChat from "./Chat/Gemini";
 
 const App: React.FC = () => {
   return (
