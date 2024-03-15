@@ -4,8 +4,8 @@ import GeminiChat from "./Chat/Gemini";
 
 const App: React.FC = () => {
   return (
-    <div>
-      <h1>FHIR Side Chats</h1>
+    <div className="flex flex-col h-screen">
+      <h1 className="bg-stone-200 p-4 font-bold text-xl">FHIR Side Chats</h1>
       <GeminiChat />
     </div>
   );
