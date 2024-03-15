@@ -6,7 +6,7 @@ interface Message {
   sender: 'user' | 'bot';
 }
 
-const ChatWidget: React.FC = () => {
+const RasaChat: React.FC = () => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [inputValue, setInputValue] = useState('');
 
@@ -61,4 +61,4 @@ const ChatWidget: React.FC = () => {
   );
 };
 
-export default ChatWidget;
+export default RasaChat;
